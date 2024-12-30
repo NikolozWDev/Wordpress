@@ -284,6 +284,7 @@ a {
     background-color: rgb(16, 21, 23);
     color: rgb(158, 158, 158);
     padding: 10px 12px;
+    cursor: pointer;
 }
 .footer1-links-1 {
     display: flex;
@@ -370,5 +371,226 @@ a {
     .top {
         display: flex;
         justify-content: space-between;
+    }
+}
+@media (min-width: 500px) {
+    .title-text1 {
+        font-size: 60px;
+    }
+    .title-text2 {
+        font-size: 18px;
+    }
+    .started {
+        font-size: 16px;
+    }
+    .for2 {
+        padding: 14px 30px 14px 30px;
+    }
+    .container-1-text1 {
+        font-size: 50px;
+    }
+    .container-1-button {
+        padding: 14px 30px 14px 30px;
+        font-size: 18px;
+    }
+    .container-2-text1 {
+        font-size: 19px;
+    }
+    .container2-text2 {
+        font-size: 17px;
+    }
+    .container-2-img {
+        width: 55px;
+        height: 55px;
+    }
+    .dragapart-container-text1 {
+        font-size: 18px;
+    }
+    .dragapart-container-text2 {
+        font-size: 40px;
+    }
+    .vipcontent-text1 {
+        font-size: 35px;
+    }
+    .vipcontent-text2 {
+        font-size: 18px;
+    }
+}
+@media (min-width: 550px) {
+    .primary-title {
+        padding: 100px 20px;
+    }
+    .primary-title-leftside {
+        width: 450px;
+    }
+    .title-text1 {
+        font-size: 65px;
+    }
+    .primary-title-img {
+        width: 550px;
+    }
+    .primary-title {
+        gap: 50px;
+        padding: 50px 20px 100px 20px;
+    }
+    .hostingcontent-container {
+        padding: 100px 20px 100px 20px;
+    }
+    .hostingcontent-container-1 {
+        width: 510px;
+    }
+    .for5 {
+        width: 510px;
+        gap: 20px;
+    }
+    .vipcontent-leftside {
+        width: 510px;
+    }
+    .vipcontent-rightside {
+        width: 530px;
+    }
+    .footer1 {
+        padding: 100px 20px 50px 20px;
+    }
+}
+@media (min-width: 700px) {
+    .for6 {
+        width: 700px;
+    }
+    .dragapart-container {
+        width: 660px;
+    }
+}
+@media (min-width: 850px) {
+    .primary-title {
+
+    }
+    .primary-title-leftside {
+        width: 43%;
+    }
+    .primary-title-img {
+        width: 50%;
+    }
+    .vipcontent-leftside {
+        width: 43%;
+    }
+    .vipcontent-rightside {
+        width: 50%;
+    }
+}
+@media (min-width: 900px) {
+    .hostingcontent-container3 {
+        display: flex;
+        justify-content: center;
+    }
+    .helper4 {   
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 900px;
+        gap: 50px;
+    }
+}
+@media (min-width: 1060px) {
+    .primary-title-img {
+        width: 510px;
+    }
+    .primary-title-leftside {
+        width: 440px;
+    }
+    .vipcontent-rightside {
+        width: 510px;
+    }
+    .vipcontent-leftside {
+        width: 440px;
+    }
+    .dragapart-container {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .primary-title {
+        gap: 100px;
+    }
+    .vipcontent {
+        gap: 100px;
+    }
+}
+@media (min-width: 1220px) {
+    .helper1 {
+        width: 1180px;
+    }
+    .for7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 1050px) {
+    .footer1-comments {
+        gap: 120px;
+    }
+    .footer1-links {
+        justify-content: center;
+        gap: 180px;
+    }
+    .footer-bottom {
+        justify-content: center;
+        gap: 675px;
+        padding: 35px 25px;
+    }
+    .helper4 {
+        width: 1000px;
+    }
+    .hostingcontent-container2-input {
+        width: 950px;
+    }
+}
+@media (min-width: 1200px) {
+    .footer1-comments {
+        gap: 140px;
+    }
+    .footer1-links {
+        gap: 240px;
+    }
+    .footer-bottom {
+        gap: 740px;
+    }
+    .helper4 {
+        width: 1050px;
+    }
+    .hostingcontent-container2-input {
+        width: 100%;
+    }
+}
+@media (min-width: 1220px) {
+    .primary-title-leftside {
+        width: 500px;
+    }
+    .primary-title {
+        gap: 165px;
+    }
+    .helper4 {
+        width: 1180px;
+    }
+    .hostingcontent-container2-input {
+        width: 90%;
+    }
+    .vipcontent {
+        gap: 150px;
+    }
+    .vipcontent-leftside {
+        width: 520px;
+    }
+    .footer1-comments {
+        gap: 182px;
+    }
+    .footer1-links {
+        gap: 355px;
+    }
+    .footer-bottom {
+        gap: 847px;
     }
 }
